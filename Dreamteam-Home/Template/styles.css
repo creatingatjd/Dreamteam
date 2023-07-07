@@ -8,6 +8,9 @@ body {
     text-align: center;
     padding: 15px;
 }
+
+/* Home page */
+
 .Box {
     font-size:16px;
     padding: 15px;
@@ -17,6 +20,10 @@ body {
     margin-right: 20px;
     margin-bottom: 40px;
 
+}
+.Box:hover{
+    transition: 1s;
+    transform: scale(1.15);
 }
 
 .main-home{
@@ -28,9 +35,8 @@ body {
 }
 .home-img{
     height: 305px;
-    
-    
 }
+
 
 #Team-cast {
     
@@ -46,25 +52,43 @@ body {
     float: left;
     width: 17%;
     margin: 1% 1% 45px 1%;
+    
+    transition: .2s;
+    
+    
+    
 }
+.img-responsive{
+    
+    transition-duration: 1s;
+    
+}
+
+
 
 
 .name {
     position: absolute;
     bottom: 0px;
     transition: opacity .5s;
-    opacity: 0;
-    
-    
-    
+    opacity: 0;   
 }
 .Team-member:hover .name{
     opacity: 1;
     
 }
-
-
+.Team-member:hover .img-responsive{
+   
+    transform:scale(1.3);
     
+    
+    
+    
+    
+}
+
+
+
 
 
 
@@ -78,6 +102,14 @@ body {
     background-color: #f0f0f0;
     font-size: larger;
     padding: 15px;
+}
+.logo{
+    width: 50px;
+    height: auto;
+    transition: 1s;
+}
+.logo:hover{
+    transform: rotate(360deg);
 }
 
 /* Footer */
