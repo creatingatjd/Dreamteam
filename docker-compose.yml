@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+    app:
+      environment:
+          - TAG='0'
+      image: 1234si/test:${TAG}
+      ports:
+          - 8002:8002
+          
+   
