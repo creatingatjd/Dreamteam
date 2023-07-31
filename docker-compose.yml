@@ -5,6 +5,4 @@ services:
           - TAG='0'
       image: 1234si/test:${TAG}
       ports:
-          - 8002:8002
-          
-   
+          - 80:80
